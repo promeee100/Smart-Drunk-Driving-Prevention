@@ -1,4 +1,4 @@
-#SMART DRUNK DRIVING PREVENTION
+SMART DRUNK DRIVING PREVENTION
 
 Driving under the influence of alcohol significantly impairs judgment and reaction speed. Existing safety systems do not always prevent drivers from operating vehicles after consuming alcohol. This project focuses on developing an automated technology that ensures the engine only operates when the driver is sober. The system continuously monitors the driver’s breath, and upon detecting alcohol, it instantly activates visual and audible alerts and cuts off the engine. This ensures accident prevention, driver safety, and public security.
 
