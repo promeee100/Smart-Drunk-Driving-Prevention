@@ -4,23 +4,37 @@ Driving under the influence of alcohol significantly impairs judgment and reacti
 
 Objective
 •	To detect alcohol levels using an alcohol sensor (MQ-3 series).
+
 •	To automatically turn off the engine if alcohol is detected.
+
 •	To alert the driver through a buzzer and LCD display.
+
 •	To design a low-cost and reliable drunk driving prevention system.
+
 •	To integrate the system with real vehicle safety modules.
 
   System Overview
 A.	The system uses:
 •	Alcohol Sensor to detect ethanol level in breath
+
 •	Arduino microcontroller for decision making
+
 •	LCD Display to show system status
+
 •	Buzzer for audible alert
+
 •	Engine control output (Relay/Pin) to start or shut down the vehicle
+
 B.	When alcohol is detected, the system:
+
 1.	Displays “ALCOHOL DETECTED”
-2.	Turns engine OFF
-3.	Activates multiple buzzer alerts
-4.	Prevents vehicle from being driven
+   
+3.	Turns engine OFF
+   
+5.	Activates multiple buzzer alerts
+   
+7.	Prevents vehicle from being driven
+   
 C.	 When no alcohol is detected, the engine is allowed to start normally
 
 Block Diagram
@@ -29,18 +43,29 @@ Block Diagram
 
 
 Circuit Components
+
 Hardware
+
 •	Arduino UNO/Nano
+
 •	MQ-3 alcohol sensor
+
 •	16×2 LCD (I2C Module)
+
 •	Buzzer
+
 •	Engine control relay/module
+
 •	Connecting wires
+
 •	Power supply (5V)
 
 Software
+
 •	Arduino IDE
+
 •	LiquidCrystal_I2C Library
+
 •	Wire Library
 
 Cicuit Diagram
@@ -50,13 +75,19 @@ Working Principle
 1.	The alcohol sensor continuously monitors the driver’s breath.
 
 2.	If alcohol is detected (LOW signal):
+   
 o	LCD warns: “ALCOHOL DETECTED”
+
 o	Engine output turns OFF
+
 o	Buzzer sounds repeatedly
 
-3.	If no alcohol is detected:
+4.	If no alcohol is detected:
+   
 o	LCD shows: “NO ALCOHOL – ENGINE ON”
+
 o	Engine output stays ON
+
 This ensures that a drunk driver cannot operate the vehicle.
 
 Flowchart
@@ -64,9 +95,13 @@ Flowchart
 
 
 Results & Output
+
 •	When the sensor detects alcohol, the engine immediately turns OFF.
+
 •	The system successfully displays warnings and activates the buzzer.
+
 •	When alcohol is not detected, normal engine operation continues.
+
 •	The system performed accurately in multiple tests
 
 Visualization
@@ -75,16 +110,24 @@ Visualization
 
 Advantages
 •	Prevents drunk driving accidents
+
 •	Low-cost and easy to implement
+
 •	Automatic detection without human intervention
+
 •	Reliable and fast response
+
 •	Increases road and passenger safety
 
  Applications
 •	Cars, Motorcycles and Private Vehicles
+
 •	Public Transportation (Buses, Microbuses)
+
 •	Trucks and Heavy Vehicles
+
 •	Driver Training Institutes
+
 •	Fleet Management Systems
 
 Conclusion
@@ -94,17 +137,25 @@ Its low cost, simplicity, and reliability make it highly suitable for real-world
 References
  
 1] Arduino, “Arduino UNO Rev3 — Technical Specifications,” Arduino Documentation. Available: https://docs.arduino.cc/hardware/uno-r3/
+
 [2] Hanwei Electronics Co., “MQ-3 Gas Sensor Datasheet,” Winsen Sensor, 2023. Available: https://www.winsen-sensor.com
+
 [3] M. Schwartz, “LiquidCrystal_I2C Library for Arduino,” GitHub Repository, 2014. Available: https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library
+
 [4] N. Kumar, “Basics of Actuators and Outputs in Microcontroller Systems,” Embedded Systems Journal, 2021.
+
 [5] World Health Organization, “Global Status Report on Road Safety,” WHO, 2023. Available: https://www.who.int
+
 [6] A. Sharma, “Alcohol Detection and Engine Locking System Using Arduino,” International Journal of Engineering Research, 2022.
+
 [7] S. Monk, Programming Arduino: Getting Started with Sketches, McGraw-Hill Education, 2016.
+
 [8] Adafruit Industries, “Using I2C LCD with Microcontrollers,” Adafruit Learning System. Available: https://learn.adafruit.com
  
 Connect Beyond Code -
 
 Email: sanjanatasnim18@cse.pstu.ac.bd
+
 GitHub: https://github.com/promeee100
 
 Made by Sanjana Tasnim Prome | © 2025 All rights reserved.
