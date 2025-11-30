@@ -3,6 +3,7 @@ SMART DRUNK DRIVING PREVENTION
 Driving under the influence of alcohol significantly impairs judgment and reaction speed. Existing safety systems do not always prevent drivers from operating vehicles after consuming alcohol. This project focuses on developing an automated technology that ensures the engine only operates when the driver is sober. The system continuously monitors the driver’s breath, and upon detecting alcohol, it instantly activates visual and audible alerts and cuts off the engine. This ensures accident prevention, driver safety, and public security.
 
 Objective
+
 •	To detect alcohol levels using an alcohol sensor (MQ-3 series).
 
 •	To automatically turn off the engine if alcohol is detected.
@@ -14,7 +15,9 @@ Objective
 •	To integrate the system with real vehicle safety modules.
 
   System Overview
+
 A.	The system uses:
+
 •	Alcohol Sensor to detect ethanol level in breath
 
 •	Arduino microcontroller for decision making
@@ -69,9 +72,11 @@ Software
 •	Wire Library
 
 Cicuit Diagram
+
 <img width="775" height="504" alt="image" src="https://github.com/user-attachments/assets/212ba104-4615-4ba0-8e5d-0caca5637ab9" />
 
 Working Principle
+
 1.	The alcohol sensor continuously monitors the driver’s breath.
 
 2.	If alcohol is detected (LOW signal):
@@ -91,6 +96,7 @@ o	Engine output stays ON
 This ensures that a drunk driver cannot operate the vehicle.
 
 Flowchart
+
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/37f05dc6-0227-4feb-801b-15fe0a514923" />
 
 
@@ -109,6 +115,7 @@ Visualization
 <img width="703" height="466" alt="image" src="https://github.com/user-attachments/assets/35535598-4d35-4d42-8beb-7e4cdb11081b" />
 
 Advantages
+
 •	Prevents drunk driving accidents
 
 •	Low-cost and easy to implement
@@ -120,6 +127,7 @@ Advantages
 •	Increases road and passenger safety
 
  Applications
+ 
 •	Cars, Motorcycles and Private Vehicles
 
 •	Public Transportation (Buses, Microbuses)
@@ -131,6 +139,7 @@ Advantages
 •	Fleet Management Systems
 
 Conclusion
+
 The Smart Drunk Driving Prevention System ensures that a vehicle cannot be operated under the influence of alcohol. This automated safety mechanism can significantly reduce road accidents and save valuable human lives. By implementing this system in real vehicles, drunk driving accidents can be significantly reduced, helping to save thousands of lives every year.
 Its low cost, simplicity, and reliability make it highly suitable for real-world implementation in modern vehicles
 
